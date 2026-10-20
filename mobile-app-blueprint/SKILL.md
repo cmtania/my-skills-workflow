@@ -16,6 +16,8 @@ Do not stop for routine details that can be recorded as assumptions. Ask only wh
 
 For a native iPhone app using SwiftUI, read [references/ios-reference-architecture.md](references/ios-reference-architecture.md). Apply its patterns selectively; product rules and explicit user choices take priority.
 
+When the product uses Apple Health activity to determine daily loot or rewards, read [references/apple-health-daily-reward.md](references/apple-health-daily-reward.md). It preserves StepForge's chest-granting behavior, including the distinction between granting a chest and using Health data to determine its reward quality.
+
 ## Create the document set
 
 Write these files under `docs/` unless the repository already has a documented convention:
